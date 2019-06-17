@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dictionary Word Guess Game</title>
-    <link rel="stylesheet" href="assets/css/style.css"/>
-    <link rel="stylesheet" href="assets/css/reset.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Dictionary Word Guess Game</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
 
 </head>
+
 <body>
-    <div class="container">
-    <h1>Dictionary Word Guess Game</h1>
-    <img src="assets/images/dictionary-game.jpg" alt="dictionary cartoon" width="200"/>
+        <div class="container">
+                <h1>Dictionary Word Guess Game</h1>
+                <img src="assets/images/dictionary-game.jpg" alt="dictionary cartoon" width="200" />
 
-    <div class="row">
-        <div class="col">wins</div>
-        <div class="col" id="wins">0</div>
-    </div>
+                <div class="row">
+                        <div class="col">wins</div>
+                        <div class="col" id="wins">0</div>
+                </div>
 
-    <div class="row">
-            <div class="col">losses</div>
-            <div class="col" id="losses">0</div>
-    </div>
+                <div class="row">
+                        <div class="col">losses</div>
+                        <div class="col" id="losses">0</div>
+                </div>
 
-    <div class="row">
-            <div class="col">word to guess</div>
-            <div class="col" id="guess"></div>
-    </div>
+                <div class="row">
+                        <div class="col">word to guess</div>
+                        <div class="col" id="guess"></div>
+                </div>
 
-    <div class="row">
-            <div class="col">number of attempts remaining</div>
-            <div class="col" id="attempts"></div>
-    </div>
+                <div class="row">
+                        <div class="col">number of guesses remaining</div>
+                        <div class="col" id="attempts"></div>
+                </div>
 
-    <div class="row">
-            <div class="col">letters guessed</div>
-            <div class="col" id="lettersGuessed"></div>
-    </div>
-    </div>  
+                <div class="row">
+                        <div class="col">letters guessed</div>
+                        <div class="col" id="lettersGuessed"></div>
+                </div>
 
-    <script src="assets/javascript/game.js"></script>
+                <div class="row">
+                        <div class="col">definition</div>
+                        <div class="col" id="wordDefinition"></div>
+                </div>
+        </div>
+
+        <script src="assets/javascript/game.js"></script>
 
 </body>
+
 </html>

@@ -41,12 +41,12 @@ var numberOfAttemptsElem = document.getElementById('attempts');
 numberOfAttemptsElem.innerHTML = numberOfAttempts;
 
 var numberOfLosses = 0;
-// 
+// set number of losses to 0
 var numberOfLossesElem = document.getElementById('losses');
 numberOfLossesElem.innerHTML = numberOfLosses;
 
 var numberOfWins = 0;
-// 
+// set number of wins to 0
 var numberOfWinsElem = document.getElementById('wins');
 numberOfWinsElem.innerHTML = numberOfWins;
 

@@ -1,2 +1,2 @@
 # Word-Guess-Game
-Create a game using Javascript
+Created a simple word guess game using Javascript
